@@ -34,22 +34,25 @@
     height: 400px;
     background: url("img/background.jpg") no-repeat center;
     font-family: "Ubuntu Bolt";
-    color: #D3D3D3;
+    color: rgba(211, 211, 211, 0.637);
     text-align: center;
 }
 
-.display-2 {
+.blok1_title {
     padding-bottom: 10px;
     padding-top: 40px;
     position: absolute;
     
-}
-.col-9 {
-    padding-bottom: 5px;
     
 }
-.col-md-12 {
-    padding-bottom: 20px;
+.blok1_text {
+    padding-bottom: 5px;
+     
+    
+}
+.blok1_butom {
+    padding-bottom: 100px;
+     
     }
 
 
@@ -59,7 +62,73 @@
      text-align: center;
      font-family: "Bree+Serif"
 }
-.col-md-12 {
-    padding-bottom: -10px; 
-    }
 
+
+.blok2_button  {
+  position: relative;
+  top: -15px;
+  right: 5px
+} 
+
+.blok2_button2 {
+  padding-top: 40px;
+  font-family: "Bree+Serif";
+  padding-bottom: 40px;
+}
+ 
+.blok2_button2>p {
+  padding-top: 10px;
+  font-family: "Ubuntu";
+ 
+}
+.blok2_button2>h4 {
+  padding-top: 30px;
+  font-family: "Ubuntu";
+  
+}
+
+/*blok3*/
+
+.blok3 {  
+  background-color: #364050;
+  padding-top: 0px;
+  background-size: cover;
+}
+.blok3_title>h4 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  color: rgb(218, 114, 18);
+  padding-left: 3pt;
+
+}
+.blok3_button {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blok3_photo11 {
+  
+}
+.blok3_photo>h5 {color:#fa8661; font-family: "Ubuntu"; text-align: left; padding-top: 5%;
+}
+/*blok4*/
+
+.blok4 {  
+  background-color: #fbfcfd;
+  text-align: center;
+  padding-top: 40px;
+}
+.blok4_title>h4 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  color: rgb(218, 114, 18);
+
+}
+.blok4_button {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.blok4_text2 {
+  color: blue;
+
+}
