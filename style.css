@@ -30,11 +30,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Bree+Serif|Ubuntu|Ubuntu+Mono&display=swap');
 
 /*blok1*/
-#blok1{
+.blok1{
     height: 400px;
     background: url("img/background.jpg") no-repeat center;
     font-family: "Ubuntu Bolt";
-    color: rgba(211, 211, 211, 0.637);
+    color: rgba(182, 178, 178, 0.438);
     text-align: center;
 }
 
@@ -58,9 +58,10 @@
 
 /*blok2*/
 
-#blok2{
-     text-align: center;
-     font-family: "Bree+Serif"
+.blok2{ 
+background-color: rgba(182, 178, 178, 0.438);
+text-align: center;
+font-family: "Bree+Serif"
 }
 
 
@@ -91,6 +92,7 @@
 
 .blok3 {  
   background-color: #364050;
+  width: 100%;
   padding-top: 0px;
   background-size: cover;
 }
@@ -109,7 +111,19 @@
 .blok3_photo11 {
   
 }
-.blok3_photo>h5 {color:#fa8661; font-family: "Ubuntu"; text-align: left; padding-top: 5%;
+.blok3_photo>h5 {
+  color:rgb(218, 114, 18); 
+  font-family: "Ubuntu"; 
+  text-align: left; 
+  padding-top: 5%;
+}
+
+.blok3_photo>p {
+  color: rgba(182, 178, 178, 0.938);
+  font-family: "Ubuntu"; 
+  text-align: left; 
+  padding-top: 5%;
+  padding-right: 20%;
 }
 /*blok4*/
 
@@ -118,17 +132,36 @@
   text-align: center;
   padding-top: 40px;
 }
-.blok4_title>h4 {
-  padding-bottom: 40px;
-  padding-top: 40px;
-  color: rgb(218, 114, 18);
-
+.blok4_title {
+   color: rgb(77, 104, 221);
+  font-family: "Myriad Pro";
 }
-.blok4_button {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.blok4_text {
+    padding-bottom: 20px;
 }
-.blok4_text2 {
+.blok4_text2>h4 {
   color: blue;
 
+}
+
+.blok4_title2 {
+  color: blue;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: "Bebas";
+}
+.blok4_title3 {
+  color:rgb(218, 114, 18); 
+  font-family: "Myriad Pro"; 
+  
+  padding-bottom: 10px;
+}
+.blok5 {  
+  background-color: #364050;
+  text-align: center;
+  padding-top: 0px;
+}
+.blok5_col>h3 {
+  color:rgb(218, 114, 18);
+  padding-top: 30px;
 }
