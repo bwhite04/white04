@@ -156,6 +156,11 @@ font-family: "Bree+Serif"
   
   padding-bottom: 10px;
 }
+
+/*blok5*/
+
+
+
 .blok5 {  
   background-color: #364050;
   text-align: center;
@@ -164,4 +169,14 @@ font-family: "Bree+Serif"
 .blok5_col>h3 {
   color:rgb(218, 114, 18);
   padding-top: 30px;
+  padding-right: 40px;
+}
+.blok5_col {
+  text-align: left;
+}
+.blok5_4 {
+  padding-top: 10px;
+  font-family: "Myriad Pro"; 
+  color: rgba(182, 178, 178, 0.938);
+  text-align: left;
 }
